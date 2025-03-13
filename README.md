@@ -17,10 +17,10 @@ Before running the application locally, ensure you have the following installed:
 If you haven't already cloned the repository, run the following command:
 
 ```bash
-git clone https://github.com/your-username/todo-list-app.git
+git clone https://github.com/AjayKumarNagilla/todo.git
 ```
 
-Replace `your-username` with your actual GitHub username.
+
 
 ### 2. Navigate to the Project Directory
 
@@ -51,12 +51,10 @@ This will install all the dependencies specified in the `package.json` file.
 To start the application in development mode, run the following command:
 
 #### Using npm:
-```bash
 npm start
 ```
 
 #### Using yarn:
-```bash
 yarn start
 ```
 
@@ -77,12 +75,12 @@ The Todo List application should now be live and fully functional.
 If you want to run tests to ensure everything is working correctly, you can use the following commands:
 
 #### Using npm:
-```bash
+
 npm test
 ```
 
 #### Using yarn:
-```bash
+
 yarn test
 ```
 
@@ -91,14 +89,14 @@ yarn test
 To create an optimized production build, run:
 
 #### Using npm:
-```bash
+
 npm run build
-```
+
 
 #### Using yarn:
-```bash
+
 yarn build
-```
+
 
 This will generate a `build` folder with the production-ready files.
 
@@ -133,12 +131,4 @@ The general folder structure of the application is as follows:
 - **`src/components/TodoForm.tsx`**: Component for adding and editing tasks.
 - **`src/components/TodoItem.tsx`**: Component to render individual Todo items.
 - **`src/store/store.ts`**: Redux store setup with actions and reducers for managing the todo state.
-
-## Contributing
-
-Feel free to fork the repository, make changes, and create a pull request. If you find any bugs or want to request new features, please open an issue in the issue tracker.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
